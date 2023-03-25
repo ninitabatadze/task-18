@@ -320,13 +320,19 @@ body {
 
 
 @media (max-width: 990px) {
-
+    .signin{
+        width: 100% !important;
+    }
+    .Sign{
+        width: 100% !important;
+    }
     .navbar-nav {
+        gap: 0px !important;
         align-items: normal !important;
     }
 
     .nav-link1 {
-        margin-left: 60px !important;
+        margin-left: 50px !important;
     }
 }
 
@@ -510,10 +516,7 @@ font-size: 28px !important;
         min-height: calc(180px + 25vw) !important;
     }
 
-    .change6 {
-        margin-left: -10px !important;
-    }
-
+ 
     .hide {
         display: none !important;
     }
@@ -1747,7 +1750,6 @@ a {
 padding: 12px 0px;
 background: #3B3B3B;
 height: 84px;
-width: 100%;
 }
 .num{
    font-family: 'space';
